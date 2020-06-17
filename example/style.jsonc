@@ -1,0 +1,13 @@
+{
+    "body" : { // I made this a seperate object from html even though they have the same attributes because objects inside objects don't work with selectors that select multuple elements
+        "margin": 0,
+        "padding": 0,
+        "header" : { // This is the same as "body header"
+            "width": "100%",
+            "font-size": 20,
+            "h1": { // This is the same as "body header h1"
+                "color" : "white"
+            }
+        }
+    }
+}

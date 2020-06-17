@@ -1,0 +1,26 @@
+// This is an example file
+{
+    // some empoyees
+    "employees" : [
+        {
+            "Name" : "John Doe",
+            "id": 1, // First employee
+            "position": "manager"
+        },
+        {
+            "Name" : "Jane Doe",
+            "id": 3, // Someone else used to work here
+            "position": "Fry Cook"
+        }
+    ],
+    "positions": {
+        "Fry Cook" : {
+            "Salary": 64000,
+            "essential": false
+        },
+        "manager": {
+            "Salary": 175000, // Too much IMO
+            "essential": false
+        }
+    }
+}
