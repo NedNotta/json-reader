@@ -101,7 +101,7 @@ exports.toCSS = function (json) {
 //#region Minify JSON
 exports.minify = function (str) {
   if (str instanceof Object) {
-    str = JSON.stringify(json);
+    str = JSON.stringify(str);
   }
   return str.replace(/\s(?=([^"\\]*(\\.|"([^"\\]*\\.)*[^"\\]*"))*[^"]*$)/gm,'');
 };

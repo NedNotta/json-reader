@@ -4,8 +4,8 @@
 const { fromFile, objSize, toCSS, minify } = require('json-reader');
 
 // files
-const jsonc_file = "example.jsonc"; // .json will work the same as well
-const jsonstyle_file = "style.jsonc";
+const jsonc_file = "example/example.jsonc"; // .json will work the same as well
+const jsonstyle_file = "example/style.jsonc";
 
 var json_obj = fromFile(jsonc_file); // This will return a object from the example.jsonc file
 var css = toCSS(fromFile(jsonstyle_file)); // This returns a minified css string from the contents of "style.jsonc"

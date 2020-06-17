@@ -8,6 +8,9 @@
         "css",
         "parser"
     ],
+    "scripts": {
+        "test": "node example/index.js"
+    },
     "author": "Phayden",
     "license": "MIT",
     "repository": {
