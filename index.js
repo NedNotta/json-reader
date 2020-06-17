@@ -118,4 +118,3 @@ exports.minify = function (str) {
   return str.replace(/\s(?=([^"\\]*(\\.|"([^"\\]*\\.)*[^"\\]*"))*[^"]*$)/gm,'');
 };
 //#endregion
-
