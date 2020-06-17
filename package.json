@@ -9,7 +9,7 @@
         "parser"
     ],
     "author": "Phayden",
-    "license": "ISC",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/NedNotta/json-reader.git"
